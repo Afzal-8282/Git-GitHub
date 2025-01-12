@@ -1,4 +1,5 @@
 # Git & GitHub
+## Here is the collection of github commands
 
 1. Command to Create new repository on command line
 
@@ -21,10 +22,10 @@ git push -u origin main
 
 3. Commands for moving pointer Head to previous commit
 
-    Here, HEAD = refers to the current commit, HEAD~1 = refers to the commit just before the current one, HEAD~2 = would refer to 2 commits behind
+    Here, HEAD = refers to the current commit
 
 ```
-git checkout HEAD~1 
+git checkout HEAD~1 (HEAD~1 = refers to the commit just before the current one)
 git checkout <commit-hash>
 git switch --detach HEAD~1
 ```
